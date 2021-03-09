@@ -1,11 +1,11 @@
 function loadRepos() {
-    const username = document.getElementById('username').value;
-
-    const url = `https://api.github.com/users/${username}/repos`
-
-    fetch(url).then(handleResponse)
-
-    function handleResponse(params) {
-
-    }
+    const url = `https://api.github.com/users/antonarnaudov/repos`
+    const httpRequest = new XMLHttpRequest();
+    httpRequest.addEventListener('readystatechange', function() {
+        if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+            document.getElementById('res').textContent = httpRequest.responseText
+        }
+    })
+    httpRequest.open('GET', url)
+    httpRequest.send()
 }
