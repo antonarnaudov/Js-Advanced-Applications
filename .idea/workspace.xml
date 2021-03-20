@@ -1,11 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="" />
+    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/01.Bus-Stop/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/01.Bus-Stop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/01.Bus-Stop/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/02.Bus-Schedule/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/02.Bus-Schedule/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/02.Bus-Schedule/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/03.Forecaster/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/03.Forecaster/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/03.Forecaster/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/04.Locked-Profile/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/04.Locked-Profile/iconProfile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/04.Locked-Profile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/04.Locked-Profile/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/05. Accordion/02. Accordion.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/05. Accordion/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/05. Accordion/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/05. Accordion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/06.Blog/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/06.Blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/06.Blog/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/advanced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/collections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/phonebook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/exercises/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/base/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/bus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/cookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/forecaster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/messenger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-programming/lecture/server/start.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/auth/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/crud-operations/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/advanced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/bus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/collections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/cookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/forecaster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/messenger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/data/phonebook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-and-auth/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/01.XHR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/01.XHR/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/01.XHR/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/01.XHR/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/01.XHR/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/01.XHR/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/02.Github-Repos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/02.Github-Repos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/02.Github-Repos/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/02.Github-Repos/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/02.Github-Repos/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/02.Github-Repos/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/03.Gighub-Commits/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/03.Gighub-Commits/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/03.Gighub-Commits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/03.Gighub-Commits/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/03.Gighub-Commits/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/03.Gighub-Commits/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/assets/fish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/base/assets/fish.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/assets/lasagna.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/base/assets/lasagna.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/assets/roast.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/base/assets/roast.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/base/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/base/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/base/static/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/base/static/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/advanced.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/advanced.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/blog.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/blog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/bus.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/bus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/collections.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/collections.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/cookbook.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/cookbook.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/forecaster.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/forecaster.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/messenger.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/exercises/server/data/messenger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/data/phonebook.json" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/server/data/phonebook.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/lecture/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-programming/server/start.bat" beforeDir="false" afterPath="$PROJECT_DIR$/async-programming/exercises/server/start.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/test/mocha.opts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cookie/test/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/benchmark/bench-multipart-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/example/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/example/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/example/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/octet_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/querystring_parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/beta-sticker-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/binaryfile.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/funkyfilename.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/menu_separator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/file/plain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/http/special-chars-in-filename/info.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/no-filename.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/preamble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/special-chars-in-filename.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/js/workarounds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/fixture/multipart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-fixtures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/integration/test-octet-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/integration/test-multipart-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-incoming-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-multipart-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/simple/test-querystring-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/legacy/system/test-multi-video-upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-connection-aborted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-content-transfer-encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/standalone/test-issue-46.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/tools/base64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/unit/test-file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/test/unit/test-incoming-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/formidable/tool/record.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/tcompiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/complex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/constant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/expression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/for.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/inline_script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/regexp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/repeat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/test_view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/liteview/view.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,11 +167,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Js-Advanced" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Coding\JavaScript\Js-Advanced-Applications\data-and-auth\crud-operations" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,10 +190,27 @@
       <updated>1614988502476</updated>
       <workItem from="1614988507728" duration="27000" />
       <workItem from="1614988584138" duration="13000" />
+      <workItem from="1615581407104" duration="4985000" />
+      <workItem from="1616010241659" duration="108000" />
+      <workItem from="1616010400267" duration="430000" />
+      <workItem from="1616010995195" duration="1598000" />
+      <workItem from="1616087610593" duration="10291000" />
+      <workItem from="1616267172844" duration="11026000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

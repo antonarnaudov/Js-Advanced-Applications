@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<h2>Register</h2>
+<form method="POST" action="/users/register" id="registerForm">
+    <input type="text" name="email" placeholder="email"/>
+    <input type="password" name="password" placeholder="password"/>
+    <input type="password" name="repass" placeholder="repeat password"/>
+    <input type="submit" value="Register"/>
+</form>
+
+<h2>Login</h2>
+<form method="POST" action="/users/login" id="loginForm">
+    <input type="text" name="email" placeholder="Email"/>
+    <input type="password" name="password" placeholder="Password"/>
+    <input type="submit" value="Login"/>
+</form>
+
+<h2>Create</h2>
+<form id="createForm">
+    <input type="text" name="name" placeholder="name"/>
+    <input type="text" name="value" placeholder="value"/>
+    <input type="submit" value="Create"/>
+</form>
+
+
+<script>
+    document.getElementById("registerForm").addEventListener('submit', ev => {
+        ev.preventDefault();
+        const formData = new FormData(ev.target);
+
+        const email = formData.get("email");
+        const password = formData.get("password");
+        const repass = formData.get("repass");
+        if (email === '' || password === '') {
+            return alert('All fields are required!')
+        } else if (password !== repass) {
+            return alert("Passwords don't match!")
+        }
+
+        register(email, password)
+    })
+
+    document.getElementById("loginForm").addEventListener('submit', ev => {
+        ev.preventDefault();
+        const formData = new FormData(ev.target);
+
+        const email = formData.get("email");
+        const password = formData.get("password");
+
+        login(email, password)
+    })
+
+    document.getElementById("createForm").addEventListener('submit', async ev => {
+        ev.preventDefault();
+        const formData = new FormData(ev.target);
+
+        const name = formData.get("name");
+        const value = formData.get("value");
+
+        await postData({name, value})
+
+    })
+
+    async function register(email, password) {
+        const response = await fetch('http://localhost:3030/users/register', {
+            method: 'post',
+            headers: {'Content-type': 'application/json'},
+            body: JSON.stringify({email, password}),
+        })
+
+        if (response.ok) {
+            const data = await response.json();
+            sessionStorage.setItem('authToken', data.accessToken)
+        } else {
+            const error = await response.json();
+            alert(`Error: ${error.message}`)
+        }
+    }
+
+    async function login(email, password) {
+        const response = await fetch('http://localhost:3030/users/login', {
+            method: 'post',
+            headers: {'Content-type': 'application/json'},
+            body: JSON.stringify({email, password}),
+        })
+
+        if (response.ok) {
+            const data = await response.json();
+            sessionStorage.setItem('authToken', data.accessToken)
+        } else {
+            const error = await response.json();
+            alert(`Error: ${error.message}`)
+        }
+    }
+
+    async function getData() {
+        const options = {
+            method: 'get',
+            headers: {}
+        }
+
+        const token = sessionStorage.getItem('authToken')
+
+        if (token !== null) {
+            options.headers['X-Authorization'] = token
+        }
+
+        const response = await fetch(`http://localhost:3030/data/records`, options)
+
+        return await response.json();
+    }
+
+    async function postData(data) {
+        const options = {
+            method: 'post',
+            headers: {},
+            body: JSON.stringify(data)
+        }
+
+        const token = sessionStorage.getItem('authToken')
+        if (token !== null) {
+            options.headers['X-Authorization'] = token
+        }
+
+        const response = await fetch(`http://localhost:3030/data/records`, options)
+
+        return await response.json();
+    }
+</script>
+</body>
+</html>
