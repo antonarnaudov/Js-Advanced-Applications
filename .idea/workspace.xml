@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="demos from async programming and auth and data added to the repo">
-      <change afterPath="$PROJECT_DIR$/single-page-applications/01.Calendar/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/01.Calendar/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/01.Calendar/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/advanced.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/blog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/bus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/collections.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/cookbook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/forecaster.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/messenger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/phonebook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/server.js" afterDir="false" />
+    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="auth and data finished">
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/assets/fish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/assets/lasagna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/assets/roast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/catalog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/static/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/static/recipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/static/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-and-auth/auth/lab/src/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-and-auth/auth/lab/src/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1pMMRXwIcaO9xxjEL59N5c7O8HC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,13 +56,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.15.5" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/single-page-applications" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Coding\JavaScript\Js-Advanced-Applications\single-page-applications" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\Coding\JavaScript\Js-Advanced-Applications\data-and-auth\crud-operations" />
     </key>
@@ -79,9 +89,7 @@
       <workItem from="1616354978897" duration="644000" />
       <workItem from="1616416730470" duration="6216000" />
       <workItem from="1616512516574" duration="11850000" />
-      <workItem from="1616592149102" duration="21000" />
-      <workItem from="1616592180883" duration="7992000" />
-      <workItem from="1616617413288" duration="2874000" />
+      <workItem from="1616703486494" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary="demos from async programming and auth and data added to the repo">
       <created>1616284415719</created>
