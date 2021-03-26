@@ -1,0 +1,10 @@
+run lite-server inside Js-Advanced-Applications\architecture-and-testing like following:
+
+C:\Js-Advanced-Applications\architecture-and-testing>lite-server
+
+--------------------------------------------------------------------------------------------------
+
+run node server.js inside Js-Advanced-Applications\architecture-and-testing\server like following:
+
+C:\Js-Advanced-Applications\architecture-and-testing\server>node server.js
+

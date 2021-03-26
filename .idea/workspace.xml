@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="auth and data finished">
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/assets/fish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/assets/lasagna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/assets/roast.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/catalog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/src/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/static/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/static/recipe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-page-applications/cookbook/static/site.css" afterDir="false" />
+    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="cookbook converted to spa">
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/accordion/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/accordion/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/accordion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/instructions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/advanced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/bus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/collections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/cookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/forecaster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/messenger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/data/phonebook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-and-testing/test/accordion.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Js-Advanced-Applications.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Js-Advanced-Applications.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-and-auth/auth/lab/src/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-and-auth/auth/lab/src/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -58,8 +64,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/single-page-applications" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +77,33 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\Coding\JavaScript\Js-Advanced-Applications\data-and-auth\crud-operations" />
     </key>
+  </component>
+  <component name="RunManager" selected="Mocha.Test">
+    <configuration name="accordion.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/architecture-and-testing/test/accordion.test.js" working-dir="$PROJECT_DIR$/architecture-and-testing/test">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/architecture-and-testing/test</test-directory>
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.Test" />
+      <item itemvalue="Node.js.accordion.test.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.accordion.test.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,7 +124,10 @@
       <workItem from="1616354978897" duration="644000" />
       <workItem from="1616416730470" duration="6216000" />
       <workItem from="1616512516574" duration="11850000" />
-      <workItem from="1616703486494" duration="2810000" />
+      <workItem from="1616703486494" duration="2999000" />
+      <workItem from="1616775346381" duration="3711000" />
+      <workItem from="1616782566737" duration="3703000" />
+      <workItem from="1616792282972" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="demos from async programming and auth and data added to the repo">
       <created>1616284415719</created>
@@ -98,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616284415719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cookbook converted to spa">
+      <created>1616706694356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616706694356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +164,32 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="demos from async programming and auth and data added to the repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demos from async programming and auth and data added to the repo" />
+    <MESSAGE value="cookbook converted to spa" />
+    <option name="LAST_COMMIT_MESSAGE" value="cookbook converted to spa" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/architecture-and-testing/test/accordion.test.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/architecture-and-testing/test/accordion.test.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/architecture-and-testing/test/accordion.test.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
