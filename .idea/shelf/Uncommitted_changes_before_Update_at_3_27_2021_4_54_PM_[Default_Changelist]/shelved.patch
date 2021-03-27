@@ -1,0 +1,126 @@
+Index: .idea/Js-Advanced-Applications.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/temp\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/.tmp\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/tmp\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Js-Advanced-Applications.iml b/.idea/Js-Advanced-Applications.iml
+--- a/.idea/Js-Advanced-Applications.iml	(revision da3437385c8f031d7dfeaa60ac075a1e088c7b7a)
++++ b/.idea/Js-Advanced-Applications.iml	(date 1616782077581)
+@@ -8,5 +8,7 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="@types/chai" level="application" />
++    <orderEntry type="library" name="@types/mocha" level="application" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d422a437-7815-467d-8512-9b91c7759b4f\" name=\"Default Changelist\" comment=\"demos from async programming and auth and data added to the repo\">\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/01.Calendar/app.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/01.Calendar/index.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/01.Calendar/style.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/app.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/index.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/module.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/advanced.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/blog.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/bus.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/collections.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/cookbook.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/forecaster.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/messenger.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/data/phonebook.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/single-page-applications/server/server.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1pMMRXwIcaO9xxjEL59N5c7O8HC\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"javascript.nodejs.core.library.configured.version\" value=\"14.15.5\" />\r\n    <property name=\"javascript.nodejs.core.library.typings.version\" value=\"14.14.35\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\anton\\Coding\\JavaScript\\Js-Advanced-Applications\\data-and-auth\\crud-operations\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d422a437-7815-467d-8512-9b91c7759b4f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1614988502476</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1614988502476</updated>\r\n      <workItem from=\"1614988507728\" duration=\"27000\" />\r\n      <workItem from=\"1614988584138\" duration=\"13000\" />\r\n      <workItem from=\"1615581407104\" duration=\"4985000\" />\r\n      <workItem from=\"1616010241659\" duration=\"108000\" />\r\n      <workItem from=\"1616010400267\" duration=\"430000\" />\r\n      <workItem from=\"1616010995195\" duration=\"1598000\" />\r\n      <workItem from=\"1616087610593\" duration=\"10291000\" />\r\n      <workItem from=\"1616267172844\" duration=\"11141000\" />\r\n      <workItem from=\"1616354978897\" duration=\"644000\" />\r\n      <workItem from=\"1616416730470\" duration=\"6216000\" />\r\n      <workItem from=\"1616512516574\" duration=\"11850000\" />\r\n      <workItem from=\"1616592149102\" duration=\"21000\" />\r\n      <workItem from=\"1616592180883\" duration=\"7992000\" />\r\n      <workItem from=\"1616617413288\" duration=\"2874000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"demos from async programming and auth and data added to the repo\">\r\n      <created>1616284415719</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1616284415719</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"demos from async programming and auth and data added to the repo\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"demos from async programming and auth and data added to the repo\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision da3437385c8f031d7dfeaa60ac075a1e088c7b7a)
++++ b/.idea/workspace.xml	(date 1616782348932)
+@@ -1,22 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="demos from async programming and auth and data added to the repo">
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/01.Calendar/app.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/01.Calendar/index.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/01.Calendar/style.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/app.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/index.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/module.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/advanced.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/blog.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/bus.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/collections.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/cookbook.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/forecaster.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/messenger.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/data/phonebook.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/single-page-applications/server/server.js" afterDir="false" />
++    <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/Js-Advanced-Applications.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Js-Advanced-Applications.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -53,6 +43,7 @@
+     <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="nodejs_package_manager_path" value="npm" />
++    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
+@@ -81,7 +72,9 @@
+       <workItem from="1616512516574" duration="11850000" />
+       <workItem from="1616592149102" duration="21000" />
+       <workItem from="1616592180883" duration="7992000" />
+-      <workItem from="1616617413288" duration="2874000" />
++      <workItem from="1616617413288" duration="2947000" />
++      <workItem from="1616676116057" duration="685000" />
++      <workItem from="1616758128260" duration="3875000" />
+     </task>
+     <task id="LOCAL-00001" summary="demos from async programming and auth and data added to the repo">
+       <created>1616284415719</created>
+@@ -90,7 +83,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1616284415719</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="demos from single page applications lecture added to the repo">
++      <created>1616620376715</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1616620376715</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -111,6 +111,11 @@
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="demos from async programming and auth and data added to the repo" />
+-    <option name="LAST_COMMIT_MESSAGE" value="demos from async programming and auth and data added to the repo" />
++    <MESSAGE value="demos from single page applications lecture added to the repo" />
++    <option name="LAST_COMMIT_MESSAGE" value="demos from single page applications lecture added to the repo" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/jsLibraryMappings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"JavaScriptLibraryMappings\">\r\n    <includedPredefinedLibrary name=\"Node.js Core\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jsLibraryMappings.xml b/.idea/jsLibraryMappings.xml
+--- a/.idea/jsLibraryMappings.xml	(revision da3437385c8f031d7dfeaa60ac075a1e088c7b7a)
++++ b/.idea/jsLibraryMappings.xml	(date 1616782077610)
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="JavaScriptLibraryMappings">
++    <file url="PROJECT" libraries="{@types/chai, @types/mocha}" />
+     <includedPredefinedLibrary name="Node.js Core" />
+   </component>
+ </project>
+\ No newline at end of file
