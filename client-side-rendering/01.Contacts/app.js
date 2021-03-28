@@ -1,43 +1,25 @@
-import { html, render } from "https://unpkg.com/lit-html?module"
+import { render } from "https://unpkg.com/lit-html?module"
 import { contacts } from "./contacts.js"
+import articleTemplate from "./card.js"
 
-const articleTemplate = (contact) => html `
-<div class="contact card">
-<div>
-    <i class="far fa-user-circle gravatar"></i>
-</div>
-<div class="info">
-    <h2>Name: ${contact.name}</h2>
-    <button class="detailsBtn">Details</button>
-    <div class="details" id="1">
-        <p>Phone number: ${contact.phoneNumber}</p>
-        <p>Email: ${contact.email}</p>
-    </div>
-</div>
-</div>`
+const main = document.getElementById('contacts');
 
-
-
-
-function start() {
-    const main = document.getElementById('contacts');
-
-    document.getElementById('render').addEventListener('click', () => {
-        const article = contacts.map(contact => articleTemplate(contact))
-
-        render(article, main)
-    })
-}
-start();
-
-document.getElementById('contacts').addEventListener('click', (event) => {
+main.addEventListener('click', event => {
     if (event.target.textContent === 'Details') {
-        const details = event.target.parentNode.querySelector('div')
-        if (details.style.display == '') {
-            details.style.display = 'block'
+        const details = event.target.parentNode.querySelector('.details')
+
+        if (details.style.display == 'block') {
+            details.style.display = 'none'
+
         } else {
-            details.style.display = ''
+            details.style.display = 'block'
         }
 
     }
+});
+
+document.getElementById('render').addEventListener('click', () => {
+    const article = contacts.map(articleTemplate)
+
+    render(article, main)
 })
