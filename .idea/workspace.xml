@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d422a437-7815-467d-8512-9b91c7759b4f" name="Default Changelist" comment="Application testing made with playwright, using mocha and chai">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -77,8 +80,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.accordion.test.js" />
       <item itemvalue="Mocha.Test" />
+      <item itemvalue="Node.js.accordion.test.js" />
     </list>
     <recent_temporary>
       <list>
@@ -109,6 +112,7 @@
       <workItem from="1616775346381" duration="3711000" />
       <workItem from="1616782566737" duration="3703000" />
       <workItem from="1616792282972" duration="455000" />
+      <workItem from="1617031692980" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="demos from async programming and auth and data added to the repo">
       <created>1616284415719</created>
