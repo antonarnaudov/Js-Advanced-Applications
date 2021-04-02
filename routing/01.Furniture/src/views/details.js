@@ -24,7 +24,7 @@ const itemTemplate = (data, isOwner, onDelete) => html `
     <div class="col-md-4">
         <div class="card text-white bg-primary">
             <div class="card-body">
-                <img src="${data.img.replace('.', '')}"/>
+                <img src="${data.img.split("")[0] === '.' ? data.img.replace('.', '') : data.img}"/>
             </div>
         </div>
     </div>
