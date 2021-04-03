@@ -78,47 +78,47 @@ export async function editPage(context) {
 
         if (Object.values(validFields(data)).some(el => el === false)) {
             const message = 'Missing fields!'
-            return context.render(editTemplate(data, onSubmit(), message, validFields(data)))
+            return context.render(editTemplate(data, onSubmit, message, validFields(data)))
 
         } else if (data.make.length < 4) {
             const message = '"Make" field should be at least 4 characters long!'
             const validation = validFields(data)
             validation.make = false
-            return context.render(editTemplate(data, onSubmit(), message, validation))
+            return context.render(editTemplate(data, onSubmit, message, validation))
 
         } else if (data.model.length < 4) {
             const message = '"Model" field should be at least 4 characters long!'
             const validation = validFields(data)
             validation.model = false
-            return context.render(editTemplate(data, onSubmit(), message, validation))
+            return context.render(editTemplate(data, onSubmit, message, validation))
 
         } else if ((1950 < Number(data.year) && Number(data.year) < 2050) === false) {
             const message = '"Year" must be between 1950 and 2050!'
             const validation = validFields(data)
             validation.year = false
-            return context.render(editTemplate(data, onSubmit(), message, validation))
+            return context.render(editTemplate(data, onSubmit, message, validation))
 
         } else if (data.description.length < 10) {
             const message = '"Description" field should be at least 10 characters long!'
             const validation = validFields(data)
             validation.description = false
-            return context.render(editTemplate(data, onSubmit(), message, validation))
+            return context.render(editTemplate(data, onSubmit, message, validation))
 
         } else if (Number(data.price) < 0) {
             const message = '"Price" must be a positive number!'
             const validation = validFields(data)
             validation.price = false
-            return context.render(editTemplate(data, onSubmit(), message, validation))
+            return context.render(editTemplate(data, onSubmit, message, validation))
 
         } else if (isURL(data.img) === false) {
             const message = '"Image" must be a valid URL!'
             const validation = validFields(data)
             validation.img = false
-            return context.render(editTemplate(data, onSubmit(), message, validation))
+            return context.render(editTemplate(data, onSubmits, message, validation))
         }
 
         await editFurniture(id, data)
-        context.page.redirect('/')
+        context.page.redirect('/details/' + id)
     }
 }
 
