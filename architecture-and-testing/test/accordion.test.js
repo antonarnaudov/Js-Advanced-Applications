@@ -28,4 +28,4 @@ describe('E2E tests', function() {
 
         await page.screenshot({ path: 'index.png' })
     })
-});
+});w
